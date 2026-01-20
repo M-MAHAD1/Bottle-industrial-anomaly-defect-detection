@@ -115,6 +115,10 @@ Real-time camera input
 Video stream inspection
 
 Frame-by-frame anomaly detection
+### Defect Detection
+![Defect piece with Score](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Defect_Score.PNG)
+### Defect Detect: Pass or Reject 
+![Pass or Reject](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Defect_Score%20%2B%20reject%20%2B%20pass.PNG)
 ### Training Loss
 ![image alt](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Training_Loss_VS_Epochs.PNG)
 
