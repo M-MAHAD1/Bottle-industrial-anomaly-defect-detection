@@ -190,7 +190,4 @@ Computer Vision & Industrial AI Project
 
 ---
 
-Agar chaho, mai tumhare liye **GitHub-ready folder structure + README + sample images folder** ka **zip ready version** bhi bana doon, jisse direct upload kar sako.  
-
-Kya mai ye bana doon?
 
