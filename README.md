@@ -39,20 +39,9 @@ The system is suitable for **Industry 4.0 and smart manufacturing environments**
 This project uses the **MVTec Anomaly Detection – Bottle dataset**.
 
 ### Dataset Structure
+The dataset is organized into a main folder called bottle. Inside this folder, there is a train directory containing only the good images for training the model. The test directory includes four subfolders: good, broken_large, broken_small, and contamination, which contain images of both normal and defective bottles for evaluation. Additionally, there is a ground_truth folder with corresponding defect masks, organized into broken_large, broken_small, and contamination, which can be used for segmentation or defect localization tasks.
 
-bottle/
- ├── train/
- │    └── good/
- ├── test/
- │    ├── good/
- │    ├── broken_large/
- │    ├── broken_small/
- │    └── contamination/
- └── ground_truth/
-      ├── broken_large/
-      ├── broken_small/
-      └── contamination/
-Dataset Characteristics
+### Dataset Characteristics
 
 Training set contains only good images
 
