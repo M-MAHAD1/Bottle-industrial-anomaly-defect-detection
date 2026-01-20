@@ -119,11 +119,12 @@ Frame-by-frame anomaly detection
 ![image alt](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Training_Loss_VS_Epochs.PNG)
 
 
-### Severity Distribution
+### Defect Severity Distribution
 ![Severity Distribution](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Defect_Severity_Distribution_graph_1.PNG)
+![Severity Distribution](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Defect_Severity_Distribution_graph_2.PNG)
 
-### Quality Grade Distribution
-![Quality Grades](results/quality_grades.png)
+### Quality Inspection Results
+![Quality Grades](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Quality_Inspection_Results.PNG)
 
 
 This makes it suitable for conveyor belt and production line integration.
