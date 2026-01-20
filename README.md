@@ -39,7 +39,7 @@ The system is suitable for **Industry 4.0 and smart manufacturing environments**
 This project uses the **MVTec Anomaly Detection – Bottle dataset**.
 
 ### Dataset Structure
-```text
+
 bottle/
  ├── train/
  │    └── good/
@@ -193,14 +193,6 @@ Computer Vision & Industrial AI Project
 
 
 ---
-
-✅ **Features in this version**:
-
-1. Code blocks properly closed  
-2. Images use **raw GitHub links** → now show in README  
-3. Headings fixed (Markdown style)  
-4. Lists & bullets formatted  
-5. Separate sections for API, results, deployment, future work  
 
 ---
 
