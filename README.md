@@ -120,7 +120,7 @@ Frame-by-frame anomaly detection
 
 
 ### Severity Distribution
-![Severity Distribution](results/severity_distribution.png)
+![Severity Distribution](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Defect_Severity_Distribution_graph_1.PNG)
 
 ### Quality Grade Distribution
 ![Quality Grades](results/quality_grades.png)
