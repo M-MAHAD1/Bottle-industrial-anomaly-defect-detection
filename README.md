@@ -116,7 +116,8 @@ Video stream inspection
 
 Frame-by-frame anomaly detection
 ### Training Loss
-![Training Loss VS Epochs](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Training_Loss_VS_Epochs.PNG)
+![Training Loss VS Epochs](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/raw/main/Training_Loss_VS_Epochs.PNG)
+
 
 ### Severity Distribution
 ![Severity Distribution](results/severity_distribution.png)
