@@ -61,7 +61,7 @@ Defect images appear only during testing
 Ground truth masks provided for defective samples
 
 Closely matches real industrial inspection scenarios
-
+---
 ## 🏗️ System Architecture
 
 The system follows a modular industrial pipeline:
@@ -189,3 +189,4 @@ Larger industrial datasets
 
 Muhammad Mahad
 Computer Vision & Industrial AI Project
+---
