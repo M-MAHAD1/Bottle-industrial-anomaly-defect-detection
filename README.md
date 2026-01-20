@@ -62,7 +62,7 @@ Ground truth masks provided for defective samples
 
 Closely matches real industrial inspection scenarios
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
 The system follows a modular industrial pipeline:
 
@@ -82,7 +82,7 @@ Batch & real-time inference
 
 API integration
 
-🤖 Model Details
+## 🤖 Model Details
 
 Architecture: ResNet-18 (Pretrained on ImageNet)
 
@@ -96,11 +96,11 @@ Hardware: NVIDIA T4 GPU (Google Colab)
 
 Only the final classification layer is trained, while the backbone is frozen to avoid overfitting.
 
-📊 Defect Severity & Quality Grading
+## 📊 Defect Severity & Quality Grading
 
-Defect severity is calculated using image difference analysis.
+### Defect severity is calculated using image difference analysis.
 
-Quality Grades
+### Quality Grades
 | Severity Range | Quality Grade |
 | -------------- | ------------- |
 | < 0.05         | ACCEPT        |
@@ -115,10 +115,19 @@ Real-time camera input
 Video stream inspection
 
 Frame-by-frame anomaly detection
+### Training Loss
+![Training Loss VS Epochs](https://github.com/M-MAHAD1/Bottle-industrial-anomaly-defect-detection/blob/main/Training_Loss_VS_Epochs.PNG)
+
+### Severity Distribution
+![Severity Distribution](results/severity_distribution.png)
+
+### Quality Grade Distribution
+![Quality Grades](results/quality_grades.png)
+
 
 This makes it suitable for conveyor belt and production line integration.
 
-🌐 API Integration
+## 🌐 API Integration
 
 A Flask-based REST API is provided for seamless industrial integration.
 Sample API Output
@@ -127,7 +136,7 @@ Sample API Output
   "severity": 0.13,
   "grade": "REJECT"
 }
-📈 Results & Visualization
+## 📈 Results & Visualization
 
 Training loss converges close to zero
 
@@ -143,7 +152,7 @@ Defect Severity Distribution
 
 Quality Grade Distribution
 
-🚀 Deployment
+## 🚀 Deployment
 
 Can be deployed on-premise or cloud
 
@@ -153,7 +162,7 @@ Ready for production with Gunicorn / NGINX
 
 Future optimization using ONNX / TensorRT
 
-🧪 How to Run
+### 🧪 How to Run
 
 Clone the repository
 
@@ -166,7 +175,7 @@ Mount Google Drive and set dataset path
 
 Run cells step by step
 
-🔮 Future Work
+### 🔮 Future Work
 
 Full defect segmentation using U-Net / Mask R-CNN
 
@@ -176,7 +185,7 @@ Edge deployment on industrial cameras
 
 Larger industrial datasets
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Muhammad Mahad
 Computer Vision & Industrial AI Project
